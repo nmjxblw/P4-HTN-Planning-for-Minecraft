@@ -20,3 +20,5 @@
         - You can build on  provided test cases, but do not reuse one as is.
   
   - **Code Modified**
+    - **For manualHTN.py**  
+      - We modified some code and improved the program. Now, the program can run Task 1 perfectly.  
