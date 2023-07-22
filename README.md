@@ -1,7 +1,8 @@
 # P4-HTN-Planning-for-Minecraft
 **P4: HTN Planning for Minecraft**  
   - **Team Member**
-    - Zhuo Chen  
+    - Zhuo Chen
+    - Yuanzheng Ji
    
   - **Requirements for this assignment**  
     - [ ] (1) Solve and submit a solution for this task:  
