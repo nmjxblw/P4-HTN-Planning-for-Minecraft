@@ -21,23 +21,26 @@ def produce(state, ID, item):
 
 pyhop.declare_methods("produce", produce)
 
-
 def make_method(name, rule):
     def method(state, ID):
-        new_checks = []
-        for names in rule["Recipes"][name]:
-            if names == "Requires":
-                nextitem = next(iter(rule["Recipes"][name][names]))
-                new_checks.append(
-                    "have_enough", ID, nextitem, rule["Recipes"][name][names][nextitem]
-                )
-            if names == "Consumes":
-                for item in rule["Recipes"][name][names]:
-                    new_checks.append(
-                        ("have_enough", ID, item, rule["Recipes"][name][names][item])
-                    )
-            new_checks.append(("op_" + name, ID))
-        return new_checks
+        Requires = rule[0]
+        Consumes = rule[1]
+    
+        list = []
+
+        # get consumes to the list
+        for key in Consumes.keys():
+                newCheck = ("have_enough", ID, key, Consumes[key])
+                list.append(newCheck)
+
+        # get Requires to the list
+        for key in Requires.keys():
+            list = [("have_enough", ID, key, Requires[key])] + list
+
+        # get the name and the id
+        list.append((name, ID))
+
+        return list
 
     return method
 
@@ -47,11 +50,21 @@ def declare_methods(data):
     for Produce in data["Recipes"]:
         temp = data["Recipes"][Produce]["Produces"].items()
         for key, value in temp:
+            try:
+                requires = data["Recipes"][Produce]["Requires"]
+            except KeyError:
+                requires = {}
+
+            try:
+                consumes = data["Recipes"][Produce]["Consumes"]
+            except KeyError:
+                consumes = {}
+
             new_method = make_method(
                 Produce,
                 [
-                    data["Recipes"][Produce]["Requires"],
-                    data["Recipes"][Produce]["Consumes"],
+                    requires,
+                    consumes,
                 ],
             )
             new_method.__name__ = Produce
