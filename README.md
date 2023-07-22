@@ -5,7 +5,7 @@
     - Yuanzheng Ji
    
   - **Requirements for this assignment**  
-    - [ ] (1) Solve and submit a solution for this task:  
+    - [x] (1) Solve and submit a solution for this task:  
                 ●	Given {}, achieve {'wood': 12} [time <= 46]
     - [ ] (2) Create HTN operators from the supplied json scripts
     - [ ] (3) Create HTN methods from the supplied json scripts
