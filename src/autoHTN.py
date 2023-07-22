@@ -47,7 +47,13 @@ def declare_methods(data):
     for Produce in data["Recipes"]:
         temp = data["Recipes"][Produce]["Produces"].items()
         for key, value in temp:
-            new_method = make_method(Produce, data)
+            new_method = make_method(
+                Produce,
+                [
+                    data["Recipes"][Produce]["Requires"],
+                    data["Recipes"][Produce]["Consumes"],
+                ],
+            )
             new_method.__name__ = Produce
             if key not in list(Produces_list.keys()):
                 Produces_list[key] = [new_method]
