@@ -28,12 +28,17 @@ def make_method(name, rule):
         for names in rule["Recipes"][name]:
             if names == "Requires":
                 nextitem = next(iter(rule["Recipes"][name][names]))
-                new_checks.append("have_enough", ID, nextitem, rule["Recipes"][name][names][nextitem])
+                new_checks.append(
+                    "have_enough", ID, nextitem, rule["Recipes"][name][names][nextitem]
+                )
             if names == "Consumes":
                 for item in rule["Recipes"][name][names]:
-                    new_checks.append(("have_enough", ID, item, rule["Recipes"][name][names][item]))
-            new_checks.append(("op_"+name, ID))
-        return new_checks               
+                    new_checks.append(
+                        ("have_enough", ID, item, rule["Recipes"][name][names][item])
+                    )
+            new_checks.append(("op_" + name, ID))
+        return new_checks
+
     return method
 
 
@@ -43,18 +48,20 @@ def declare_methods(data):
         temp = data["Recipes"][Produce]["Produces"].items()
         for key, value in temp:
             if key not in list(Produces_list.keys()):
-                Produces_list[key] = [Produce]
+                new_method = make_method(Produce, data)
+                new_method.__name__ = Produce
+                Produces_list[key] = [new_method]
             else:
-                Produces_list[key].append(produce)
-                Produces_list.sort(key=lambda p:data["Recipes"][p])
+                new_method = make_method(Produce, data)
+                new_method.__name__ = Produce
+                Produces_list[key].append(new_method)
+                Produces_list[key].sort(
+                    key=lambda p: data["Recipes"][p.__name__]["Time"]
+                )
                 
-
-    # temp = {}
-    # for produce in Produces_list:
-    #     temp[str("produce_" + produce)] = []
-
-    print(temp)
-    pass
+    for key in Produces_list.keys():
+        pyhop.declare_methods(str("produce_" + key), *Produces_list[key])
+    return
 
 
 def make_operator(rule):
@@ -68,7 +75,7 @@ def make_operator(rule):
 def declare_operators(data):
     # your code here
     # hint: call make_operator, then declare the operator to pyhop using pyhop.declare_operators(o1, o2, ..., ok)
-	
+
     pass
 
 
