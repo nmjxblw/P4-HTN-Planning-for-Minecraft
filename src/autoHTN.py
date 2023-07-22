@@ -47,18 +47,16 @@ def declare_methods(data):
     for Produce in data["Recipes"]:
         temp = data["Recipes"][Produce]["Produces"].items()
         for key, value in temp:
+            new_method = make_method(Produce, data)
+            new_method.__name__ = Produce
             if key not in list(Produces_list.keys()):
-                new_method = make_method(Produce, data)
-                new_method.__name__ = Produce
                 Produces_list[key] = [new_method]
             else:
-                new_method = make_method(Produce, data)
-                new_method.__name__ = Produce
                 Produces_list[key].append(new_method)
                 Produces_list[key].sort(
                     key=lambda p: data["Recipes"][p.__name__]["Time"]
                 )
-                
+
     for key in Produces_list.keys():
         pyhop.declare_methods(str("produce_" + key), *Produces_list[key])
     return
