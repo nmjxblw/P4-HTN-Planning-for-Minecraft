@@ -83,8 +83,36 @@ def declare_methods(data):
 
 def make_operator(rule):
     def operator(state, ID):
-        # your code here
-        pass
+        requires = rule[0]
+        consumes = rule[1]
+        produces = rule[2]
+        time = rule[3]
+        
+        # may need to check all reuqires are met 
+        for require in requires.keys():
+            if requires[require] > getattr(state,require)[ID]:
+                # Faile
+                return False
+            
+        # same idea to check consumes
+        for consume in consumes:
+            if consumes[consume] > getattr(state,consume)[ID]:
+                # Faile
+                return False
+        
+        # also check time remain
+        if time > state.time[ID]:
+            return False
+        
+        # then we update the state info
+        for consume in consumes.keys():
+            state[consume][ID] -= consumes[consume]
+        for produce in produces.keys():
+            state[produce][ID] += produces[produce]
+        # update time 
+        state.time[ID] -= time
+        
+        return state
 
     return operator
 
@@ -92,8 +120,29 @@ def make_operator(rule):
 def declare_operators(data):
     # your code here
     # hint: call make_operator, then declare the operator to pyhop using pyhop.declare_operators(o1, o2, ..., ok)
+    for item in data['Recipes'].keys():        
+        requires = {}
+        consumes = {}
+        # to check if we need prerequire for making this item
+        if 'Requires' in data['Recipes'][item]:
+            # hit:requiers is a dict 
+            requires = data['Recipes'][item]['Requires']
+        # also check the consumes
+        if 'Consumes' in data['Recipes'][item]:
+            consumes = data['Recipes'][item]['Consumes']
+        # get result
+        produces = data['Recipes'][item]['Produces']
+        # get time 
+        time = data['Recipes'][item]['Time']
+        
+        rule = [requires, consumes, produces, time]
+        
+        operator = make_operator(rule)
+        operator.__name__ = 'op_'+item
+        
+        pyhop.declare_operators(operator)
 
-    pass
+    return 
 
 
 def add_heuristic(data, ID):
@@ -146,7 +195,6 @@ if __name__ == "__main__":
     declare_methods(data)
     add_heuristic(data, "agent")
 
-    # data["axe"]
 
     # pyhop.print_operators()
     # pyhop.print_methods()
