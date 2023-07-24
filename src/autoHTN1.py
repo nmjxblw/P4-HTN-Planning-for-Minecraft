@@ -23,16 +23,19 @@ def make_method (name, rule):
         
         l = []
         
+        print(f"{name}")
         c = [('have_enough', ID, 'ingot', 0), ('have_enough', ID, 'coal', 0), ('have_enough', ID, 'ore', 0), ('have_enough', ID, 'cobble', 0), ('have_enough', ID, 'stick', 0), ('have_enough', ID, 'plank', 0), ('have_enough', ID, 'wood', 0)]
         for check in c:
             for key in consumes.keys():
                 if key == check[2]:
                     newCheck = ('have_enough', ID, key, consumes[key])
                     l.append(newCheck)
+                    print(f"consumes:{key} {consumes[key]}")
         
         for key in requires.keys():
             #l.append(('have_enough', ID, key, requires[key]))
             l = [('have_enough', ID, key, requires[key])] + l
+            print(f"requires:{key} {requires[key]}")
         
         l.append((name, ID))
         
@@ -163,6 +166,11 @@ def add_heuristic (data, ID):
         #print(type(depth))          #int
         #print(type(calling_stack))  #list
         #('produce', 'agent', 'item')
+        # print(f"curr_task:{curr_task}")
+        # print(f"tasks:{tasks}")
+        # print(f"plan:{plan}")
+        # print(f"depth:{depth}")
+        # print(f"calling_stack:{calling_stack}")
         
         if curr_task[0] == 'produce' and curr_task[2] in data['Tools'] and curr_task in calling_stack:
             return True
@@ -220,7 +228,7 @@ if __name__ == '__main__':
     with open(rules_filename) as f:
         data = json.load(f)
 
-    state = set_up_state(data, 'agent', time=300) # allot time here
+    state = set_up_state(data, 'agent', time=250) # allot time here
     goals = set_up_goals(data, 'agent')
 
     declare_operators(data)
@@ -234,4 +242,4 @@ if __name__ == '__main__':
     # try verbose=1 if it is taking too long
     pyhop.pyhop(state, goals, verbose=3)
     #pyhop.pyhop(state, goals, verbose=3)
-    # pyhop.pyhop(state, [('have_enough', 'agent', 'cart', 1),('have_enough', 'agent', 'rail', 20)], verbose=3)
+    pyhop.pyhop(state, [('have_enough', 'agent', 'cart', 1),('have_enough', 'agent', 'rail', 20)], verbose=1)
