@@ -27,13 +27,13 @@ pyhop.declare_methods("produce", produce)
 
 def make_method(name, rule):
     def method(state, ID):
-        f = open("out.txt", "a")
+        # f = open("out.txt", "a")
         Requires = rule[0]
         Consumes = rule[1]
 
         l = []
 
-        print(f"produce:{name}", file=f)
+        # print(f"produce:{name}", file=f)
         # get consumes to the list
 
         c = ["ingot", "coal", "ore", "cobble", "stick", "plank", "wood"]
@@ -57,13 +57,13 @@ def make_method(name, rule):
         # get Requires to the list
         for key in Requires.keys():
             l = [("have_enough", ID, key, Requires[key])] + l
-            print(f"requires:{key}\t{Requires[key]}", file=f)
+            # print(f"requires:{key}\t{Requires[key]}", file=f)
 
         # get the name and the id
         l.append((name, ID))
-        print("\n", file=f)
+        # print("\n", file=f)
 
-        f.close()
+        # f.close()
 
         # os.system("PAUSE")
         return l

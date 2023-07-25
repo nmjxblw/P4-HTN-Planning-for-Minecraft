@@ -28,5 +28,6 @@
       - In add_heuristic, we added some refinement conditions:   
           - 1. When duplicate production of a tool occurs, we will discard that branch.  
           - 2. When we have produced a sufficient amount of raw materials, we will stop further raw material production to increase the efficiency of the plan.  
-          - 3. When producing iron axes, we will first check if stone axes are required. If stone axes were needed in previous tasks, we will abandon their production because iron axes have the same tree-cutting efficiency as stone axes. However, iron axes require more advanced raw materials.  
+          - 3. When producing iron axes, we will first check if stone axes are required. If stone axes were needed in previous tasks, we will abandon their production because iron axes have the same tree-cutting efficiency as stone axes. However, iron axes require more advanced raw materials.
+          - 4. We add two fuctions that check the amount of woods or ingot reach the amount that using iron_pickaxe or wooden_axe is efficient enough. If efficient crafting those tools, if not abandon the task. 
           
