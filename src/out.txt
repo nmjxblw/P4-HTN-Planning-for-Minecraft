@@ -1,0 +1,3487 @@
+produce:op_craft cart at bench
+consume:ingot	5
+requires:bench	1
+
+
+produce:op_craft bench
+consume:plank	4
+
+
+produce:op_craft plank
+consume:wood	1
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+consume:ingot	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+consume:cobble	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_craft furnace at bench
+consume:cobble	8
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_craft stone_pickaxe at bench
+consume:cobble	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_craft wooden_pickaxe at bench
+consume:stick	2
+consume:plank	3
+requires:bench	1
+
+
+produce:op_craft stick
+consume:plank	2
+
+
+produce:op_craft plank
+consume:wood	1
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+consume:ingot	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+consume:cobble	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_craft plank
+consume:wood	1
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+consume:ingot	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+consume:cobble	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_craft rail at bench
+consume:ingot	6
+consume:stick	1
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_craft stick
+consume:plank	2
+
+
+produce:op_craft rail at bench
+consume:ingot	6
+consume:stick	1
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_craft cart at bench
+consume:ingot	5
+requires:bench	1
+
+
+produce:op_craft cart at bench
+consume:ingot	5
+requires:bench	1
+
+
+produce:op_craft bench
+consume:plank	4
+
+
+produce:op_craft plank
+consume:wood	1
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+consume:ingot	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+consume:cobble	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_craft furnace at bench
+consume:cobble	8
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_craft stone_pickaxe at bench
+consume:cobble	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_craft wooden_pickaxe at bench
+consume:plank	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_craft plank
+consume:wood	1
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+consume:ingot	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+consume:cobble	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_craft stick
+consume:plank	2
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_craft wooden_pickaxe at bench
+consume:plank	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_craft plank
+consume:wood	1
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+consume:ingot	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+consume:cobble	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_craft stone_pickaxe at bench
+consume:cobble	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_craft stick
+consume:plank	2
+
+
+produce:op_craft cart at bench
+consume:ingot	5
+requires:bench	1
+
+
+produce:op_craft bench
+consume:plank	4
+
+
+produce:op_craft plank
+consume:wood	1
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+consume:ingot	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+consume:cobble	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_craft furnace at bench
+consume:cobble	8
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_craft stone_pickaxe at bench
+consume:cobble	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_craft wooden_pickaxe at bench
+consume:plank	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_craft plank
+consume:wood	1
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+consume:ingot	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+consume:cobble	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_craft stick
+consume:plank	2
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_craft wooden_pickaxe at bench
+consume:plank	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_craft plank
+consume:wood	1
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+consume:ingot	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+consume:cobble	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_craft stone_pickaxe at bench
+consume:cobble	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_craft stick
+consume:plank	2
+
+
+produce:op_craft cart at bench
+consume:ingot	5
+requires:bench	1
+
+
+produce:op_craft bench
+consume:plank	4
+
+
+produce:op_craft plank
+consume:wood	1
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+consume:ingot	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+consume:cobble	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_craft furnace at bench
+consume:cobble	8
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_craft stone_pickaxe at bench
+consume:cobble	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_craft wooden_pickaxe at bench
+consume:stick	2
+consume:plank	3
+requires:bench	1
+
+
+produce:op_craft stick
+consume:plank	2
+
+
+produce:op_craft plank
+consume:wood	1
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+consume:ingot	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+consume:cobble	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_craft plank
+consume:wood	1
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+consume:ingot	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+consume:cobble	3
+consume:stick	2
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_craft rail at bench
+consume:ingot	6
+consume:stick	1
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_craft stick
+consume:plank	2
+
+
+produce:op_craft rail at bench
+consume:ingot	6
+consume:stick	1
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+consume:coal	1
+consume:ore	1
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_craft cart at bench
+requires:bench	1
+
+
+produce:op_craft bench
+
+
+produce:op_craft plank
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+requires:bench	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+requires:bench	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_craft furnace at bench
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_craft stone_pickaxe at bench
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_craft wooden_pickaxe at bench
+requires:bench	1
+
+
+produce:op_craft stick
+
+
+produce:op_craft plank
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_craft plank
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_craft rail at bench
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_craft stick
+
+
+produce:op_craft rail at bench
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_craft cart at bench
+requires:bench	1
+
+
+produce:op_craft bench
+
+
+produce:op_craft plank
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+requires:bench	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+requires:bench	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_craft furnace at bench
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_craft stone_pickaxe at bench
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_craft wooden_pickaxe at bench
+requires:bench	1
+
+
+produce:op_craft stick
+
+
+produce:op_craft plank
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_craft plank
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_craft rail at bench
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_craft stick
+
+
+produce:op_craft rail at bench
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_craft cart at bench
+produce:op_craft cart at bench
+requires:bench	1
+
+
+produce:op_craft bench
+
+
+produce:op_craft plank
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+requires:bench	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+requires:bench	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_craft furnace at bench
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_craft stone_pickaxe at bench
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_craft wooden_pickaxe at bench
+requires:bench	1
+
+
+produce:op_craft stick
+
+
+produce:op_craft plank
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_craft plank
+
+
+produce:op_iron_axe for wood
+requires:iron_axe	1
+
+
+produce:op_craft iron_axe at bench
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_stone_axe for wood
+requires:stone_axe	1
+
+
+produce:op_craft stone_axe at bench
+requires:bench	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_wooden_axe for wood
+requires:wooden_axe	1
+
+
+produce:op_punch for wood
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_wooden_pickaxe for cobble
+requires:wooden_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for cobble
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for cobble
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_craft rail at bench
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_craft stick
+
+
+produce:op_craft rail at bench
+requires:bench	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+
+produce:op_smelt ore in furnace
+requires:furnace	1
+
+
+produce:op_iron_pickaxe for coal
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for coal
+requires:stone_pickaxe	1
+
+
+produce:op_iron_pickaxe for ore
+requires:iron_pickaxe	1
+
+
+produce:op_stone_pickaxe for ore
+requires:stone_pickaxe	1
+
+

@@ -2,6 +2,7 @@ import pyhop
 import json
 import time
 import os
+import sys
 
 
 def check_enough(state, ID, item, num):
@@ -26,28 +27,46 @@ pyhop.declare_methods("produce", produce)
 
 def make_method(name, rule):
     def method(state, ID):
+        f = open("out.txt", "a")
         Requires = rule[0]
         Consumes = rule[1]
 
-        list = []
+        l = []
 
-        # print(f"produce:{name}")
+        print(f"produce:{name}", file=f)
         # get consumes to the list
-        for key in Consumes.keys():
-            newCheck = ("have_enough", ID, key, Consumes[key])
-            # print(f"consumes:{key} {Consumes[key]}")
-            list.append(newCheck)
+
+        c = ["ingot", "coal", "ore", "cobble", "stick", "plank", "wood"]
+        for check in c:
+            for key in Consumes.keys():
+                if key == check:
+                    # print(f"consume:{key}\t{Consumes[key]}", file=f)
+                    newCheck = ("have_enough", ID, key, Consumes[key])
+                    l.append(newCheck)
+
+        # for key in Consumes.keys():
+        #     if key not in [check[2] for check in c]:
+        #         raise Exception("Unkonwn consume: {}".format(key))
+        #         print(key)
+
+        # for key in Consumes.keys():
+        #     print(f"consume:{key}\t{Consumes[key]}",file=f)
+        #     newCheck = ("have_enough", ID, key, Consumes[key])
+        #     l.append(newCheck)
 
         # get Requires to the list
         for key in Requires.keys():
-            list = [("have_enough", ID, key, Requires[key])] + list
-            # print(f"requires:{key} {Requires[key]}")
+            l = [("have_enough", ID, key, Requires[key])] + l
+            print(f"requires:{key}\t{Requires[key]}", file=f)
 
         # get the name and the id
-        list.append((name, ID))
+        l.append((name, ID))
+        print("\n", file=f)
+
+        f.close()
 
         # os.system("PAUSE")
-        return list
+        return l
 
     return method
 
@@ -177,6 +196,32 @@ def add_heuristic(data, ID):
         ):
             return True
 
+        if curr_task[0] == "produce" and curr_task[2] in data["Items"]:
+            total_consumes = 0
+            for task in tasks:
+                if task[0] == "have_enough" and task[2] == curr_task[2]:
+                    total_consumes += task[3]
+            total_num = getattr(state, curr_task[2])[ID]
+            if total_num >= total_consumes:
+                return True
+
+        have_enough_stone_axe = ("have_enough", ID, "stone_axe", 1)
+        have_enough_wooden_axe = ("have_enough", ID, "wooden_axe", 1)
+
+        if (
+            curr_task[0] == "produce"
+            and curr_task[2] == "iron_axe"
+            and have_enough_stone_axe in calling_stack
+        ):
+            return True
+
+        if (
+            curr_task[0] == "produce"
+            and curr_task[2] == "stone_axe"
+            and have_enough_wooden_axe in calling_stack
+        ):
+            return True
+
         if curr_task[0] == "produce" and curr_task[2] == "iron_pickaxe":
             required = 0
             for task in tasks:
@@ -245,12 +290,12 @@ if __name__ == "__main__":
 
     # Hint: verbose output can take a long time even if the solution is correct;
     # try verbose=1 if it is taking too long
-    # pyhop.pyhop(state, goals, verbose=1)
-    pyhop.pyhop(
-        state,
-        [("have_enough", "agent", "cart", 1), ("have_enough", "agent", "rail", 20)],
-        verbose=1,
-    )
+    pyhop.pyhop(state, goals, verbose=1)
+    # pyhop.pyhop(
+    #     state,
+    #     [("have_enough", "agent", "cart", 1), ("have_enough", "agent", "rail", 20)],
+    #     verbose=1,
+    # )
     end_time = time.time()
 
     excuted_time = end_time - start_time

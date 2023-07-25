@@ -22,7 +22,8 @@
   ],
   "Initial": {},
   "Goal": {
-    "plank":1
+    "cart":1,
+    "rail":20
   },
   "Recipes": {
     "iron_axe for wood": {
