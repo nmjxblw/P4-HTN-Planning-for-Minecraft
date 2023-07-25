@@ -31,9 +31,6 @@ def make_method(name, rule):
 
         list = []
 
-        print(f"require:{Requires}")
-        print(f"consumes:{Consumes}")
-
         # print(f"produce:{name}")
         # get consumes to the list
         for key in Consumes.keys():
